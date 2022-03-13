@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none; outline: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+nav{
+    background-image: linear-gradient(rgba(9,5,54, 0.3),rgba(5,4,46,0.7)),url("img/TR-en-20220228-popsignuptwoweeks-perspective_alpha_website_large.jpeg");
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+.nav-header > img{
+    width: 150px;
+}
+
+.nav-header > button{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 4rem;
+}
+
+.nav-content h2{
+    font-size: 55px;
+}
+
+.nav-content p{
+    font-size: 24px;
+}
+
+.nav-content h5{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 1rem 0;
+}
+
+input[type="text"]{
+    background-color: white;
+    width: 420px;
+    height: 60px;
+    padding: 0 25px;
+    font-size: 20px;
+}
+
+input[type="submit"]{
+    position: relative;
+    left: -5px;
+    width: 180px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    opacity: 0.9;
+}
+
+select{
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: 25px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+select > option{
+    color: black;
+}
+
+.features{
+    background-color: black;
+    color: white;
+}
+
+.features .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.features .box .content h3{
+    font-size: 40px;
+}
+
+.features .box .content p{
+    font-size: 20px;
+}
+
+.features .box .image{
+    width: 450px;
+    margin-bottom: 30px;
+}
+
+.features .box .image img{
+    width: 100%;
+}
+
+hr{
+    background: #303030;
+    height: 8px;
+}
+
+.banner{
+    text-align: center;
+}
+
+.accordion-container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.accordion-container h1{
+    color: white;
+    padding: 3rem 0;
+}
+
+.accordion-container .accordion{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.accordion-container .accordion-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #303030;
+    color: white;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.accordion-container .accordion-heading h3{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.accordion-container .accordion.active .accordion-heading > i{
+    transform: rotate(180deg);
+    color: white;
+}
+
+.accordion-container .accordion.active .accordion-content{
+    display: block;
+    text-align: start;
+}
+
+.accordion-container .accordion-heading > i{
+    font-size: 25px;
+}
+
+.accordion-container .accordion .accordion-content{
+    background: #303030;
+    color: white;
+    border: 2px solid black;
+    border-top: none;
+    padding: 20px;
+    font-size: 18px;
+    display: none;
+    transform-origin: top;
+}
+
+.accordion-container form{
+    padding-bottom: 100px;
+}
+
+.accordion-container form > h3{
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+    margin: 50px 0 20px 0;
+}
+
+.footer {
+	max-width: 45%;
+	margin: 1rem auto;
+    padding: 40px 0 0 0;
+}
+
+.footer,
+.footer a {
+    font-size: 13px;
+    color: #999;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.footer li{
+    list-style-type: none;
+    margin: 8px 0;
+}
+
+.footer p {
+	margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols {
+    display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 2rem;
+}
+
+.footer li {
+	line-height: 1.9;
+}
+
+.footer select{
+    width: 150px;
+    height: 50px;
+    border: 1px solid #303030;
+    padding: 10px;
+    margin: 25px 0 20px 0;
+}
+
+.footer select:focus{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.footer select option{
+    background-color: black;
+    color: white;
+}
+
+/* media queries */
+
+@media(max-width:768px){
+    .nav-content{
+        margin-top: 3rem;
+    }
+    .nav-content h2{
+        font-size: 35px;
+    }
+    .nav-content p{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .nav-content h5{
+        font-size: 18.1px;
+        width: 80%;
+    }
+    .nav-header{
+        padding: 1.5rem 1rem;
+    }
+    .nav-header > img{
+        width: 120px;
+    }
+    .nav-header > button{
+        padding: 4px 10px;
+        border-radius: 4px;
+    }
+    input[type="text"]{
+        width: 420px;
+        height: 50px;
+        padding: 0 10px;
+        font-size: 15px;
+        border: 1px solid #303030;
+    }
+    
+    input[type="submit"]{
+        width: 130px;
+        height: 40px;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    select{
+        height: 28px;
+    }
+    .accordion-container .accordion-heading{
+        padding: 12px;
+    }
+    .accordion-container .accordion-heading h3{
+        font-size: 18px;
+    }
+    .accordion-container .accordion-content{
+        text-align: start;
+        font-size: 16px !important;
+    }
+    .accordion-container form{
+        padding-bottom: 50px;
+    }
+    .features .box .content h3{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .features .box .content p{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .footer{
+        max-width: 80%;
+    }
+
+    .footer .footer-cols {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+}
