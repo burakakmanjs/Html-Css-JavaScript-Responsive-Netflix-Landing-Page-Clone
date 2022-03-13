@@ -13,7 +13,6 @@ Technologies I Used in the Project: Html, Css, JavaScript
 <img width="1440" alt="Ekran Resmi 2022-03-13 13 40 58" src="https://user-images.githubusercontent.com/86736735/158057344-d9ecb5b3-365b-4258-a302-b40de6666ee1.png">
 <img width="1440" alt="Ekran Resmi 2022-03-13 13 41 31" src="https://user-images.githubusercontent.com/86736735/158057683-3f8fa521-acc8-448a-8ca4-077f3a14278f.png">
 <img width="1440" alt="Ekran Resmi 2022-03-13 13 42 18" src="https://user-images.githubusercontent.com/86736735/158057419-8d7856bb-4ca8-45d6-9f82-985bbbc08db4.png">
-6735/158057374-0e69b433-401f-4b87-b531-350190550b93.png">
 
 📸 Mobile View
 <hr>
