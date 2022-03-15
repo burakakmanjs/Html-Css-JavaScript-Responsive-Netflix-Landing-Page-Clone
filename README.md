@@ -4,6 +4,8 @@ Hello Everyone, in this project I made Responsive Netflix Landing Page Clone wit
 
 Technologies I Used in the Project: Html, Css, JavaScript
 
+Watch the Live Demo https://burakakman34.github.io/Html-Css-JavaScript-Responsive-Netflix-Landing-Page-Clone/
+
 📸 Screenshots
 <hr>
 <img width="1440" alt="Ekran Resmi 2022-03-13 13 39 08" src="https://user-images.githubusercontent.com/86736735/158057215-4db9695b-ae56-493f-a536-04956238c241.png">
